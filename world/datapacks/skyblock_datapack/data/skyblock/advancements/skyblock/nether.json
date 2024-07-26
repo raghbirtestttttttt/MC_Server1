@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:flint_and_steel"
+		},
+		"title": {
+			"translate": "The terrifying nether",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Start building the portal to the nether",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/all_islands",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:nether_portal"
+			}
+		}
+	}
+}

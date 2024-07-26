@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"skyblock:technical/use_bowl_in_brown_mooshroom": true
+						}
+					}
+				},
+				"items": [
+					{
+						"items": [
+							"minecraft:suspicious_stew"
+						],
+						"nbt": "{Effects:[{EffectId:12}]}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "skyblock:advancements/suspicius_stew_12"
+	}
+}

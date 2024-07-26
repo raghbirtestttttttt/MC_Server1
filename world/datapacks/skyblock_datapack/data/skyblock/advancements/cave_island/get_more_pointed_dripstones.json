@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pointed_dripstone"
+		},
+		"title": {
+			"translate": "Dangerous points",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get more pointed dripstones",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/spread_moss",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pointed_dripstone"
+						],
+						"count": {
+							"min": 3
+						}
+					}
+				]
+			}
+		}
+	}
+}

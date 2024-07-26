@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_sapling"
+		},
+		"title": {
+			"translate": "Regenerating",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get an oak sapling to plant more trees",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/get_wood",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oak_sapling"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:basalt"
+		},
+		"title": {
+			"translate": "Is that a burnt log?",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Build a basalt generator",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_64_amethyst_shards",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:basalt"
+						]
+					}
+				]
+			}
+		}
+	}
+}

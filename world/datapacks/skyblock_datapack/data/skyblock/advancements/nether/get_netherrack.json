@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherrack"
+		},
+		"title": {
+			"translate": "Nether stone",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get netherrack with piglins",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/trading_with_piglins",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:thrown_item_picked_up_by_player",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						}
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:netherrack"
+					]
+				}
+			}
+		}
+	}
+}

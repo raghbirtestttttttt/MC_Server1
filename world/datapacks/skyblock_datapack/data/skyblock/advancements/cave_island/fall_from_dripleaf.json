@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:big_dripleaf"
+		},
+		"title": {
+			"translate": "Falling with style",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Falls from a big dripleaf",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/place_spore_blossom",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:big_dripleaf",
+				"state": {
+					"tilt": "full"
+				}
+			}
+		}
+	}
+}

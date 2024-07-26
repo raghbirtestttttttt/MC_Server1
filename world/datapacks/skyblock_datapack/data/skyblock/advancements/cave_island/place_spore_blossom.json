@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spore_blossom"
+		},
+		"title": {
+			"translate": "A beautiful flower",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Use the spore blossom to decorate",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/spread_moss",
+	"criteria": {
+		"requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:spore_blossom",
+                        "properties": {}
+                    }
+                ]
+            }
+        }
+	}
+}

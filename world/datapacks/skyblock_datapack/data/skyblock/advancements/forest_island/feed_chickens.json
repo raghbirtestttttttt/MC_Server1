@@ -1,0 +1,70 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:beetroot_seeds"
+		},
+		"title": {
+			"translate": "Feeding chickens",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Feed chickens with all the seeds",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/animal_platform",
+	"criteria": {
+		"wheat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat_seeds"
+					]
+				},
+				"entity": {
+					"type": "minecraft:chicken"
+				}
+			}
+		},
+		"beetroot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:beetroot_seeds"
+					]
+				},
+				"entity": {
+					"type": "minecraft:chicken"
+				}
+			}
+		},
+		"pumpkin": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pumpkin_seeds"
+					]
+				},
+				"entity": {
+					"type": "minecraft:chicken"
+				}
+			}
+		},
+		"melon": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:melon_seeds"
+					]
+				},
+				"entity": {
+					"type": "minecraft:chicken"
+				}
+			}
+		}
+	}
+}

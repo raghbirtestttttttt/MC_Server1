@@ -1,0 +1,61 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:big_dripleaf",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Extreme fall",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Fall and survive 64 blocks from a dripleaf and land on a stalagmite without water",
+			"color": "white"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:cave_island/fall_from_dripleaf",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:fall_from_height",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": [
+										"minecraft:pointed_dripstone"
+									],
+									"state": {
+										"vertical_direction": "up",
+										"thickness": "tip",
+										"waterlogged": false
+									}
+								}
+							}
+						}
+					}
+				],
+				"start_position": {
+					"block": {
+						"blocks": [
+							"minecraft:big_dripleaf",
+							"minecraft:big_dripleaf_stem"
+						]
+					}
+				},
+				"distance": {
+					"y": {
+						"min": 64
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

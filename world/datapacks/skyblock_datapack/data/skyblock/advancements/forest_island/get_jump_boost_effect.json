@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:rabbit_foot"
+		},
+		"title": {
+			"translate": "Jumping high",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get the jump boost effect",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/killed_rabbit",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:jump_boost": {}
+				}
+			}
+		}
+	}
+}

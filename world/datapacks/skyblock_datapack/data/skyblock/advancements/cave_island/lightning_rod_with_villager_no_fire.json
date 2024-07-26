@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lightning_rod",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Run away villager",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Protect a villager from an undesired shock without starting a fire",
+			"color": "white"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:cave_island/channeled_lightning_in_a_lightning_rod",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:lightning_strike",
+			"conditions": {
+				"lightning": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "lightning",
+								"blocks_set_on_fire": 0
+							},
+							"distance": {
+								"absolute": {
+									"max": 30
+								}
+							}
+						}
+					}
+				],
+				"bystander": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:villager"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

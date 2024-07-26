@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fire_charge"
+		},
+		"title": {
+			"translate": "Returning to sender",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Kill a ghast with its own projectile",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/get_ghast_tear",
+	"criteria": {
+		"killed_ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:ghast"
+						}
+					}
+				],
+				"killing_blow": {
+					"is_projectile": true,
+					"direct_entity": {
+						"type": "minecraft:fireball"
+					}
+				}
+			}
+		}
+	}
+}

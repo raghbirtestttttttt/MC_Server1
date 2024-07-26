@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:saddle",
+            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": {
+            "translate": "A desertic friend",
+            "color": "aqua"
+        },
+        "description": {
+            "translate": "Successfully defend a village from a raid in the desert, and find three camels in 0 ~ 0",
+            "color": "white"
+        },
+        "frame": "goal"
+    },
+    "parent": "skyblock:forest_island/tame_equines",
+    "criteria": {
+        "hero_of_the_village": {
+            "trigger": "minecraft:hero_of_the_village",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "minecraft:desert"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "skyblock:advancements/camel",
+        "experience": 100
+    }
+}

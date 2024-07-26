@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 12,
+		  "type": "minecraft:item",
+          "name": "minecraft:sweet_berries"
+        },
+        {
+          "weight": 11,
+		  "type": "minecraft:item",
+          "name": "minecraft:bamboo"
+        },
+        {
+		  "weight": 9,
+          "type": "minecraft:item",
+          "name": "minecraft:spore_blossom"
+        },
+		{
+		  "weight": 12,
+          "type": "minecraft:item",
+          "name": "minecraft:glow_lichen"
+        },
+        {
+          "weight": 11,
+		  "type": "minecraft:item",
+          "name": "minecraft:cocoa_beans"
+        },
+		{
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "minecraft:glow_berries"
+        },
+        {
+          "weight": 8,
+		  "type": "minecraft:item",
+          "name": "minecraft:lava_bucket"
+        }
+      ]
+    }
+  ]
+}

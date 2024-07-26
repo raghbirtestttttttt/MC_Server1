@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cobblestone_slab"
+		},
+		"title": {
+			"translate": "Slabs",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "To save some blocks",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/stone_pickaxe",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cobblestone_slab"
+						]
+					}
+				]
+			}
+		}
+	}
+}

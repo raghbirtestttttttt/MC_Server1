@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_shrieker"
+		},
+		"title": {
+			"translate": "To die honorably",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Activate a sculk shrieker by stepping on it",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/spread_sculk",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"block": {
+							"blocks": [
+								"minecraft:sculk_shrieker"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

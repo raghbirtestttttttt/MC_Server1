@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:purpur_block"
+		},
+		"title": {
+			"translate": "A remote city",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Enter an end city",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/enter_end_gateway",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:end_city"
+					}
+				}
+			}
+		}
+	}
+}

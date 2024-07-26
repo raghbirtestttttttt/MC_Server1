@@ -1,0 +1,106 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chest"
+		},
+		"title": {
+			"translate": "Prospering",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Come to an island",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/get_sapling",
+	"criteria": {
+		"forest_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 63,
+								"max": 66
+							},
+							"z": {
+								"min": -1,
+								"max": 2
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		},
+		"sand_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -65,
+								"max": -62
+							},
+							"z": {
+								"min": -1,
+								"max": 2
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		},
+		"geode_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -1,
+								"max": 2
+							},
+							"z": {
+								"min": -65,
+								"max": -62
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		},
+		"cave_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -1,
+								"max": 2
+							},
+							"z": {
+								"min": 63,
+								"max": 66
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"sand_island",
+			"forest_island",
+			"geode_island",
+			"cave_island"
+		]
+	]
+}

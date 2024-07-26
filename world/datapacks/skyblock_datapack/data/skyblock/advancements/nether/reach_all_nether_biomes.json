@@ -1,0 +1,69 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_boots",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Nether explorer",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Reach all 5 nether biomes",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/get_64_gold_nugget",
+	"criteria": {
+		"nether_wastes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:nether_wastes"
+					}
+				}
+			}
+		},
+		"basalt_deltas": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:basalt_deltas"
+					}
+				}
+			}
+		},
+		"soul_sand_valley": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:soul_sand_valley"
+					}
+				}
+			}
+		},
+		"warped_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:warped_forest"
+					}
+				}
+			}
+		},
+		"crimson_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:crimson_forest"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:calcite"
+		},
+		"title": {
+			"translate": "Better than bone block",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Craft 64 calcite blocks",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_basalt",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:calcite"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra"
+		},
+		"title": {
+			"translate": "Now I'll be a bird",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get an elytra",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/enter_end_city",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:elytra"
+						]
+					}
+				]
+			}
+		}
+	}
+}

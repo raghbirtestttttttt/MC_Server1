@@ -1,0 +1,204 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:composter"
+		},
+		"title": {
+			"translate": "Master farmer",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 of each type of crop",
+			"color": "white"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:sand_island/plant_a_seed",
+	"criteria": {
+		"wheat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wheat"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cactus": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cactus"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sugar_cane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sugar_cane"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cocoa_beans": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cocoa_beans"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sweet_berries": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sweet_berries"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"beetroot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:beetroot"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"melon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:melon_slice"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pumpkin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pumpkin"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"potato": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:potato"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"carrot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:carrot"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"kelp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:kelp"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"glow_berries": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:glow_berries"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"chorus_fruit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chorus_fruit"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

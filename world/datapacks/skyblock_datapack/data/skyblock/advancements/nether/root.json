@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_nether_bricks"
+		},
+		"title": {
+			"translate": "The nether",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "A new dimension to explore",
+			"color": "white"
+		},
+		"background": "minecraft:textures/block/netherrack.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "minecraft:the_nether"
+			}
+		}
+	}
+}

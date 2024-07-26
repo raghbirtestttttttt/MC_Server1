@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk"
+		},
+		"title": {
+			"translate": "Saving the experience",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 sculk blocks",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/avoid_vibration",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sculk"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

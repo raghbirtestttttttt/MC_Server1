@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:furnace"
+		},
+		"title": {
+			"translate": "Furnaces",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "To cook what you need",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/cobblestone_generator",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:furnace"
+						]
+					}
+				]
+			}
+		}
+	}
+}

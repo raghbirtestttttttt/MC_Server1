@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sniffer_egg"
+        },
+        "title": {
+            "translate": "Ancient creatures",
+            "color": "aqua"
+        },
+        "description": {
+            "translate": "Breed some sniffers with moss",
+            "color": "white"
+        }
+    },
+    "parent": "skyblock:cave_island/brush_suspicious_sand_or_gravel",
+    "criteria": {
+        "requirement": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:sniffer"
+				}
+			}
+		}
+    }
+}

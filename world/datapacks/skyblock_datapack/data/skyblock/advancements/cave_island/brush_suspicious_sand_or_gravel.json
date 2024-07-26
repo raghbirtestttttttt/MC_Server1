@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brush"
+        },
+        "title": {
+            "translate": "Forgotten treasures.",
+            "color": "aqua"
+        },
+        "description": {
+            "translate": "Use a brush on suspicious sand or suspicius gravel.",
+            "color": "white"
+        }
+    },
+    "parent": "skyblock:cave_island/get_more_pointed_dripstones",
+    "criteria": {
+        "requirement:": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "skyblock:archaeology/crafting_archaeology"
+            }
+        }
+    }
+}

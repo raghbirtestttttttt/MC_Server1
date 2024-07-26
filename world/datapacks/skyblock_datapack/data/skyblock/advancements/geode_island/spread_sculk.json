@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_catalyst"
+		},
+		"title": {
+			"translate": "Spreading sculk",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Kill a mob near a sculk catalyst",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:kill_mob_near_sculk_catalyst"
+		}
+	}
+}

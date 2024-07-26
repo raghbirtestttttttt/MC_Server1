@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"skyblock:technical/use_bow_in_brown_mooshroom": true
+						}
+					}
+				},
+				"items": [
+					{
+						"items": [
+							"minecraft:mushroom_stew"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "skyblock:advancements/revoke_use_bowl_in_brown_mooshroom"
+	}
+}

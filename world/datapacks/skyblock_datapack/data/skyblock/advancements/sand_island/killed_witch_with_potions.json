@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:splash_potion"
+		},
+		"title": {
+			"translate": "Magic dule",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Kill a witch with potions",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/come_to_witch_hut",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:witch"
+				},
+				"killing_blow": {
+					"is_magic": true,
+					"direct_entity": {
+						"type": "minecraft:potion"
+					}
+				}
+			}
+		}
+	}
+}

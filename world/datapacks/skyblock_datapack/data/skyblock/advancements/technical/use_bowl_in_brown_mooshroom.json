@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"skyblock:technical/feed_brown_mooshroom": true
+						}
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:bowl"
+					]
+				},
+				"entity": {
+					"type": "minecraft:mooshroom",
+					"nbt": "{Type:brown}"
+				}
+			}
+		}
+	}
+}

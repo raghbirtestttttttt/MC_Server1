@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:flowering_azalea"
+		},
+		"title": {
+			"translate": "The tree of the future",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 azaleas or flowering azaleas",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/place_spore_blossom",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:azalea",
+							"minecraft:flowering_azalea"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

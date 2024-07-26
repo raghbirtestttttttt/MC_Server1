@@ -1,0 +1,49 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:suspicious_stew"
+		},
+		"title": {
+			"translate": "Suspicius cow",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get all suspicius stews with brown mooshrooms",
+			"color": "white"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:cave_island/channeled_lightning_in_a_lightning_rod",
+	"criteria": {
+		"get_suspicius_stew_12": {
+			"trigger": "minecraft:impossible"
+		},
+		"get_suspicius_stew_15": {
+			"trigger": "minecraft:impossible"
+		},
+		"get_suspicius_stew_23": {
+			"trigger": "minecraft:impossible"
+		},
+		"get_suspicius_stew_8": {
+			"trigger": "minecraft:impossible"
+		},
+		"get_suspicius_stew_19": {
+			"trigger": "minecraft:impossible"
+		},
+		"get_suspicius_stew_10": {
+			"trigger": "minecraft:impossible"
+		},
+		"get_suspicius_stew_16": {
+			"trigger": "minecraft:impossible"
+		},
+		"get_suspicius_stew_18": {
+			"trigger": "minecraft:impossible"
+		},
+		"get_suspicius_stew_20": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

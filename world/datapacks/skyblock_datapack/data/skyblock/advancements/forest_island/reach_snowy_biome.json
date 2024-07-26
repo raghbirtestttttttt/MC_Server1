@@ -1,0 +1,98 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:snow_block"
+		},
+		"title": {
+			"translate": "Frozen areas",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Reach a place where it snows",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/reach_other_biome",
+	"criteria": {
+		"snowy_plains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:snowy_plains"
+					}
+				}
+			}
+		},
+		"snowy_taiga": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:snowy_taiga"
+					}
+				}
+			}
+		},
+		"jagged_peaks": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:jagged_peaks"
+					}
+				}
+			}
+		},
+		"grove": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:grove"
+					}
+				}
+			}
+		},
+		"taiga": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"min": 150
+							}
+						},
+						"biome": "minecraft:taiga"
+					}
+				}
+			}
+		},
+		"windswept_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"min": 120
+							}
+						},
+						"biome": "minecraft:windswept_hills"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"snowy_plains",
+			"snowy_taiga",
+			"jagged_peaks",
+			"grove",
+			"taiga",
+			"windswept_hills"
+		]
+	]
+}

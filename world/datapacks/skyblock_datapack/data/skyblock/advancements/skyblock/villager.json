@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": {
+			"translate": "Villagers",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Interact with a villager",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/nether",
+	"criteria": {
+		"villager": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:villager"
+				}
+			}
+		}
+	}
+}

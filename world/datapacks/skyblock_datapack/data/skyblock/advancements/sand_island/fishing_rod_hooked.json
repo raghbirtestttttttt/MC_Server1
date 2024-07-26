@@ -1,0 +1,63 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fishing_rod"
+		},
+		"title": {
+			"translate": "Fishing time",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Build a lake and catch some fish",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/get_a_hoe",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lily_pad",
+						"minecraft:leather_boots",
+						"minecraft:leather",
+						"minecraft:bone",
+						"minecraft:string",
+						"minecraft:fishing_rod",
+						"minecraft:bowl",
+						"minecraft:stick",
+						"minecraft:ink_sac",
+						"minecraft:tripwire_hook",
+						"minecraft:rotten_flesh",
+						"minecraft:bamboo",
+						"minecraft:cod",
+						"minecraft:salmon",
+						"minecraft:pufferfish",
+						"minecraft:tropical_fish",
+						"minecraft:name_tag",
+						"minecraft:saddle",
+						"minecraft:bow",
+						"minecraft:fishing_rod",
+						"minecraft:enchanted_book",
+						"minecraft:nautilus_shell"
+					]
+				}
+			}
+		},
+		"water": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:water"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"water",
+			"requirement"
+		]
+	]
+}

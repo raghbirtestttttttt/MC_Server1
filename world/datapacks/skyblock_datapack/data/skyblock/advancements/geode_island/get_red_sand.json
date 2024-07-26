@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_sand"
+		},
+		"title": {
+			"translate": "A rare sand",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get red sand",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_64_sands",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_sand"
+						]
+					}
+				]
+			}
+		}
+	}
+}

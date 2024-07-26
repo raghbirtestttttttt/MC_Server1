@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:powder_snow_bucket"
+		},
+		"title": {
+			"translate": "Cold patience",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Collect some powder snow from a cauldron",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/summon_snow_golem",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:powder_snow_bucket"
+						]
+					}
+				]
+			}
+		}
+	}
+}

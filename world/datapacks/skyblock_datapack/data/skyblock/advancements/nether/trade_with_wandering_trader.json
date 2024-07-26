@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lead"
+		},
+		"title": {
+			"translate": "Floating trader",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Trade with a wandering trader",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:nether/get_emerald",
+	"criteria": {
+		"trade_with_wandering_trader": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "minecraft:wandering_trader"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

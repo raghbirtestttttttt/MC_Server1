@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:scute"
+		},
+		"title": {
+			"translate": "A sharp scute",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get a scute",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/bred_turtles",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:scute"
+						]
+					}
+				]
+			}
+		}
+	}
+}

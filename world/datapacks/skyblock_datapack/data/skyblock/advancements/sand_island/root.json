@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sand"
+		},
+		"title": {
+			"translate": "Sand island",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "The island of prosperity",
+			"color": "white"
+		},
+		"background": "minecraft:textures/block/sandstone_top.png"
+	},
+	"criteria": {
+		"sand_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -65,
+								"max": -62
+							},
+							"z": {
+								"min": -1,
+								"max": 2
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		}
+	}
+}

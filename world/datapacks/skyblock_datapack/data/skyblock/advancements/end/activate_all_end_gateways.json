@@ -1,0 +1,402 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_helmet"
+		},
+		"title": {
+			"translate": "Dragon slayer",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Activate all 20 end gateways",
+			"color": "white"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:end/respawn_dragon",
+	"criteria": {
+		"killed_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 2
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_3": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 3
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_4": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 4
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_5": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 5
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_6": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 6
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_7": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 7
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_8": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 8
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_9": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 9
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_10": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 10
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_11": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 11
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_12": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 12
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_13": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 13
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_14": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 14
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_15": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 15
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_16": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 16
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_17": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 17
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_18": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 18
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_19": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 19
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"killed_20": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 20
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 1000
+	}
+}

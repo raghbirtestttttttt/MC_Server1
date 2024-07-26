@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_stem"
+		},
+		"title": {
+			"translate": "Nether trees",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 stems of the nether trees",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/spread_nylium",
+	"criteria": {
+		"stem_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:warped_stem"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"stem_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crimson_stem"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

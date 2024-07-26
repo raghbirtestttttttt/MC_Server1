@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:decorated_pot",
+            "nbt": "{BlockEntityTag:{id:\"minecraft:decorated_pot\",sherds:[\"minecraft:brick\",\"minecraft:heart_pottery_sherd\",\"minecraft:brick\",\"minecraft:explorer_pottery_sherd\"]}}"
+        },
+		"title": {
+            "translate": "A beautiful pot",
+            "color": "aqua"
+        },
+        "description": {
+            "translate": "Craft a decorated pot",
+            "color": "white"
+        }
+    },
+    "parent": "skyblock:cave_island/brush_suspicious_sand_or_gravel",
+    "criteria": {
+        "pot_crafted_using_only_sherds": {
+			"conditions": {
+				"ingredients": [
+					{
+						"tag": "minecraft:decorated_pot_sherds"
+					},
+					{
+						"tag": "minecraft:decorated_pot_sherds"
+					},
+					{
+						"tag": "minecraft:decorated_pot_sherds"
+					},
+					{
+						"tag": "minecraft:decorated_pot_sherds"
+					}
+				],
+				"recipe_id": "minecraft:decorated_pot"
+			},
+			"trigger": "minecraft:recipe_crafted"
+		}
+    }
+}

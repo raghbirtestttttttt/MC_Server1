@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"title": {
+			"translate": "Little star where are you?",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Summon and defeat the wither",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/get_wither_skeleton_skull",
+	"criteria": {
+		"kill_wither": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither"
+				}
+			}
+		}
+	}
+}

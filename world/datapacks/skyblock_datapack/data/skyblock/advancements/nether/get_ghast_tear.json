@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ghast_tear"
+		},
+		"title": {
+			"translate": "Tears of victory",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get a ghast tear",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/reach_all_nether_biomes",
+	"criteria": {
+		"ghast_tear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ghast_tear"
+						]
+					}
+				]
+			}
+		}
+	}
+}

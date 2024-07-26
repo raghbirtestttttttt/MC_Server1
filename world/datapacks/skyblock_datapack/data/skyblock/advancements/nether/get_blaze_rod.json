@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blaze_rod"
+		},
+		"title": {
+			"translate": "It's burning",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "It's hot but you need it",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/reach_the_fortress",
+	"criteria": {
+		"get_blaze_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blaze_rod"
+						]
+					}
+				]
+			}
+		}
+	}
+}

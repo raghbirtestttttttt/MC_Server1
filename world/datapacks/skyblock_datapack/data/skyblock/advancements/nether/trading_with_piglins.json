@@ -1,0 +1,68 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chiseled_polished_blackstone"
+		},
+		"title": {
+			"translate": "The great piglin",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Trade with piglins",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/get_64_gold_nugget",
+	"criteria": {
+		"trading": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:gold_ingot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						}
+					}
+				]
+			}
+		},
+		"trading_1": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						}
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:gold_ingot"
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"trading",
+			"trading_1"
+		]
+	]
+}

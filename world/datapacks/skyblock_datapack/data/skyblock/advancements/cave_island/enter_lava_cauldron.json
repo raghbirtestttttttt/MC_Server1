@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cauldron"
+		},
+		"title": {
+			"translate": "A hot bath",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Enter a cauldron with lava",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/get_64_dripstone_blocks",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:lava_cauldron"
+			}
+		}
+	}
+}

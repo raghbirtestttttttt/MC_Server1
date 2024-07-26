@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_pearl"
+		},
+		"title": {
+			"translate": "Beyond the island",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Use the end gateway",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/killed_dragon",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:end_gateway"
+			}
+		}
+	}
+}

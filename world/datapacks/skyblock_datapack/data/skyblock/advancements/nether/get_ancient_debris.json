@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ancient_debris"
+		},
+		"title": {
+			"translate": "Hidden by the withers",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Wither skeletons drop ancient debris",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/kill_wither_skeleton",
+	"criteria": {
+		"get_ancient_debris": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ancient_debris"
+						]
+					}
+				]
+			}
+		}
+	}
+}

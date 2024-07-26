@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fishing_rod",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Treasure fisherman",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Catch a treasure of the sea",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/fishing_rod_hooked",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:name_tag",
+						"minecraft:saddle",
+						"minecraft:bow",
+						"minecraft:fishing_rod",
+						"minecraft:enchanted_book",
+						"minecraft:nautilus_shell"
+					]
+				}
+			}
+		}
+	}
+}

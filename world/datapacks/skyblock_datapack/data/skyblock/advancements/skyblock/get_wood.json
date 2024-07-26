@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_log"
+		},
+		"title": {
+			"translate": "Wood, wood",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get wood",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oak_log"
+						]
+					}
+				]
+			}
+		}
+	}
+}

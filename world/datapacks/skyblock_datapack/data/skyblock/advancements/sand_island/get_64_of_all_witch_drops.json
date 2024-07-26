@@ -1,0 +1,109 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": {
+			"translate": "Witch shop",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 of all witch drops",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/killed_witch_with_potions",
+	"criteria": {
+		"glowstone_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:glowstone_dust"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sugar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sugar"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:redstone"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"spider_eye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:spider_eye"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"glass_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:glass_bottle"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"gunpowder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gunpowder"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"stick": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stick"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

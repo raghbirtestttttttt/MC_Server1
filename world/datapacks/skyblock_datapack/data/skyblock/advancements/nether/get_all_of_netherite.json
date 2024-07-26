@@ -1,0 +1,128 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_pickaxe",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "All of netherite",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get all the armor, tools and weapons of netherite",
+			"color": "white"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:nether/get_netherite_ingot",
+	"criteria": {
+		"get_netherite_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_chestplate"
+						]
+					}
+				]
+			}
+		},
+		"get_netherite_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_leggings"
+						]
+					}
+				]
+			}
+		},
+		"get_netherite_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_helmet"
+						]
+					}
+				]
+			}
+		},
+		"get_netherite_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_boots"
+						]
+					}
+				]
+			}
+		},
+		"get_netherite_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_pickaxe"
+						]
+					}
+				]
+			}
+		},
+		"get_netherite_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_axe"
+						]
+					}
+				]
+			}
+		},
+		"get_netherite_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_sword"
+						]
+					}
+				]
+			}
+		},
+		"get_netherite_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_shovel"
+						]
+					}
+				]
+			}
+		},
+		"get_netherite_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_hoe"
+						]
+					}
+				]
+			}
+		}
+	}
+}

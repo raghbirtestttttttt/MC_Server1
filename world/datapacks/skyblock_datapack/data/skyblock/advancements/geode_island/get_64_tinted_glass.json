@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tinted_glass"
+		},
+		"title": {
+			"translate": "A valuable glass",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 tinted glass",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/use_spyglass",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tinted_glass"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:moss_block"
+        },
+        "title": {
+            "translate": "The power of the moss",
+            "color": "aqua"
+        },
+        "description": {
+            "translate": "Spread the moss on stone",
+            "color": "white"
+        }
+    },
+    "parent": "skyblock:cave_island/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:moss_block"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:bone_meal"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

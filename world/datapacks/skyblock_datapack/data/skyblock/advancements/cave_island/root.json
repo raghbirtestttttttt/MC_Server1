@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:flowering_azalea_leaves"
+		},
+		"title": {
+			"translate": "Cave island",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "The island of the caves",
+			"color": "white"
+		},
+		"background": "minecraft:textures/block/moss_block.png"
+	},
+	"criteria": {
+		"cave_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -1,
+								"max": 2
+							},
+							"z": {
+								"min": 63,
+								"max": 66
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ice"
+		},
+		"title": {
+			"translate": "The ice pick",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 ice blocks",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/reach_snowy_biome",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ice"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

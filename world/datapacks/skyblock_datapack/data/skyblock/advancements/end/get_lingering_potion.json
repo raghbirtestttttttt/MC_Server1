@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lingering_potion"
+		},
+		"title": {
+			"translate": "To create clouds",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Create a lingering potion",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/get_dragon_breath",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lingering_potion"
+						]
+					}
+				]
+			}
+		}
+	}
+}

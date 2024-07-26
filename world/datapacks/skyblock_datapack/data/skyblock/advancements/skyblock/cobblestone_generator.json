@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cobblestone"
+		},
+		"title": {
+			"translate": "Cobblestone generator",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "With water and lava build a cobblestone generator",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/wooden_pickaxe",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cobblestone"
+						]
+					}
+				]
+			}
+		}
+	}
+}

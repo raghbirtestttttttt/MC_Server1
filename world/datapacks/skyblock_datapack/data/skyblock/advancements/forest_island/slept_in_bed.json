@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:white_bed"
+		},
+		"title": {
+			"translate": "To sleep",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Sleep and rest",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/cut_sheep_wool",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:slept_in_bed"
+		}
+	}
+}

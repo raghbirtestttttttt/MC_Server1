@@ -1,0 +1,94 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:creeper_head"
+		},
+		"title": {
+			"translate": "Headologist",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get all the mobs heads",
+			"color": "white"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:cave_island/charged_creeper_hurt_player",
+	"criteria": {
+		"creeper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:creeper_head"
+						]
+					}
+				]
+			}
+		},
+		"zombie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:zombie_head"
+						]
+					}
+				]
+			}
+		},
+		"skeleton": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:skeleton_skull"
+						]
+					}
+				]
+			}
+		},
+		"wither_skeleton": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wither_skeleton_skull"
+						]
+					}
+				]
+			}
+		},
+		"dragon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dragon_head"
+						]
+					}
+				]
+			}
+		},
+		"piglin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:piglin_head"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

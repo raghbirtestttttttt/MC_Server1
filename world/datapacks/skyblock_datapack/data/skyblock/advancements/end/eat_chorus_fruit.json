@@ -1,0 +1,63 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_fruit"
+		},
+		"title": {
+			"translate": "Eat and go",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Eat chorus fruit in each dimension",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/plant_chorus_fruit",
+	"criteria": {
+		"eat_chorus_fruit_1": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld"
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					]
+				}
+			}
+		},
+		"eat_chorus_fruit_2": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:the_nether"
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					]
+				}
+			}
+		},
+		"eat_chorus_fruit_3": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:the_end"
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					]
+				}
+			}
+		}
+	}
+}

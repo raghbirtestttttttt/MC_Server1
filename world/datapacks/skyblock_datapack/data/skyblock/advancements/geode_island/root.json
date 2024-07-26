@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:amethyst_cluster"
+		},
+		"title": {
+			"translate": "Geode island",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "The island of the deep",
+			"color": "white"
+		},
+		"background": "minecraft:textures/block/amethyst_block.png"
+	},
+	"criteria": {
+		"geode_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -1,
+								"max": 2
+							},
+							"z": {
+								"min": -65,
+								"max": -62
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		}
+	}
+}

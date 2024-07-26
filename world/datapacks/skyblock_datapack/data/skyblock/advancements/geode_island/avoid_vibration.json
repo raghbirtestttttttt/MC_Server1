@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_sensor"
+		},
+		"title": {
+			"translate": "Sneak 100",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Sneak near a sculk sensor or warden to prevent it form detecting you",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/spread_sculk",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:avoid_vibration"
+		}
+	}
+}

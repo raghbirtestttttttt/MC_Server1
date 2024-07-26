@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glow_item_frame"
+		},
+		"title": {
+			"translate": "A better decoration",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Place something in a glow item frame",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/killed_glow_squid",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:glow_item_frame"
+				}
+			}
+		}
+	}
+}

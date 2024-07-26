@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bundle"
+		},
+		"title": {
+			"translate": "A practical bundle",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Craft a bundle",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/killed_rabbit",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bundle"
+						]
+					}
+				]
+			}
+		}
+	}
+}

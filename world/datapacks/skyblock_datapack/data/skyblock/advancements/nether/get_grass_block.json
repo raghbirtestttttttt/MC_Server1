@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:grass_block"
+		},
+		"title": {
+			"translate": "Conserving nature",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get a grass block",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/enchant_with_silk_touch",
+	"criteria": {
+		"grass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:grass_block"
+						]
+					}
+				]
+			}
+		}
+	}
+}

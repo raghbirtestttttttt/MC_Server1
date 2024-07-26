@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:recovery_compass"
+		},
+		"title": {
+			"translate": "My past lives",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Craft a recovery compass",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/killed_warden",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:recovery_compass"
+						]
+					}
+				]
+			}
+		}
+	}
+}

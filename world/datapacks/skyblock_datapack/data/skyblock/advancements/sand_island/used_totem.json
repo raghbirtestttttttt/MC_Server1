@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:totem_of_undying"
+		},
+		"title": {
+			"translate": "Resurrected",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Spend one totem",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/hero_of_the_village",
+	"criteria": {
+		"used_totem": {
+			"trigger": "minecraft:used_totem",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:totem_of_undying"
+					]
+				}
+			}
+		}
+	}
+}

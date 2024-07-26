@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:turtle_helmet"
+		},
+		"title": {
+			"translate": "I need air",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Swim with a turtle helmet",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_scute",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"fluid": {
+							"fluid": "minecraft:water"
+						}
+					},
+					"flags": {
+						"is_swimming": true
+					},
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:turtle_helmet"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

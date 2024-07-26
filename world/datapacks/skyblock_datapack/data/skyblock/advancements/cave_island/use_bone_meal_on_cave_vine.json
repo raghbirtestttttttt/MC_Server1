@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glow_berries"
+        },
+        "title": {
+            "translate": "Are those berries radioactive?",
+            "color": "aqua"
+        },
+        "description": {
+            "translate": "Grow some glow berries",
+            "color": "white"
+        }
+    },
+    "parent": "skyblock:cave_island/get_64_azaleas",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:cave_vines_plant",
+                                    "minecraft:cave_vines"
+                                ],
+                                "state": {
+                                    "berries": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:bone_meal"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

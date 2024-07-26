@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tadpole_bucket"
+		},
+		"title": {
+			"translate": "Little tadpole",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Catch a tadpole in a bucket",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_64_sands",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tadpole_bucket"
+						]
+					}
+				]
+			}}
+			}
+		}
+	}
+}

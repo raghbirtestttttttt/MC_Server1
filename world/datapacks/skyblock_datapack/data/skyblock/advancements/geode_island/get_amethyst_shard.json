@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:amethyst_shard"
+		},
+		"title": {
+			"translate": "A precious gem",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get a amethyst shard",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:amethyst_shard"
+						]
+					}
+				]
+			}
+		}
+	}
+}

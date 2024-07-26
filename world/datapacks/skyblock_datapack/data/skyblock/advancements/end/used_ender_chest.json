@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_chest"
+		},
+		"title": {
+			"translate": "A wireless chest",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Use a ender chest",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/killed_dragon",
+	"criteria": {
+		"requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:ender_chest"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+	}
+}

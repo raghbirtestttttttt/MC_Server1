@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sand"
+		},
+		"title": {
+			"translate": "Sand collector",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Craft 64 sand blocks",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_amethyst_shard",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sand"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

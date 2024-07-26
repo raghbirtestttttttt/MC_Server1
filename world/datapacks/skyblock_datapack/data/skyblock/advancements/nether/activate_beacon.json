@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:beacon"
+		},
+		"title": {
+			"translate": "The power is mine",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Build and activate a beacon",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/kill_wither",
+	"criteria": {
+		"activate_beacon": {
+			"trigger": "minecraft:construct_beacon"
+		}
+	}
+}

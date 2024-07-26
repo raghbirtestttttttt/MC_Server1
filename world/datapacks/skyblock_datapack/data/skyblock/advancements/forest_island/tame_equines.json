@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:saddle"
+		},
+		"title": {
+			"translate": "Equine rider",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Tame a horse, a donkey and a mule",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/feed_chickens",
+	"criteria": {
+		"horse": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:horse"
+				}
+			}
+		},
+		"donkey": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:donkey"
+				}
+			}
+		},
+		"mule": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:mule"
+				}
+			}
+		}
+	}
+}

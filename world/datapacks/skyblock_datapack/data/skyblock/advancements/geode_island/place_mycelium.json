@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:mycelium"
+		},
+		"title": {
+			"translate": "The fungi kingdom expansion",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Place the mycelium so it expands",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_red_sand",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:mycelium",
+                        "properties": {}
+                    }
+                ]
+            }
+        }
+    }
+}

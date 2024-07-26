@@ -1,0 +1,68 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_roots"
+		},
+		"title": {
+			"translate": "Nether vegetation",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Spread vegetation on the two nylium",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/get_netherrack",
+	"criteria": {
+		"warped": {
+			"trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:warped_nylium"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:bone_meal"
+                            ]
+                        }
+                    }
+                ]
+            }
+		},
+		"crimson": {
+			"trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:crimson_nylium"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:bone_meal"
+                            ]
+                        }
+                    }
+                ]
+            }
+		}
+	}
+}

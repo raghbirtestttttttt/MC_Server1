@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bone"
+		},
+		"title": {
+			"translate": "A big skeleton",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Kill a skeleton wither",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/reach_the_fortress",
+	"criteria": {
+		"kill_wither_skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither_skeleton"
+				}
+			}
+		}
+	}
+}

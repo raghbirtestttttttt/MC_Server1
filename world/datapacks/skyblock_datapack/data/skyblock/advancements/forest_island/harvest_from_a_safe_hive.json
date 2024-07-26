@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bee_nest"
+		},
+		"title": {
+			"translate": "Safe hive",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Extract honey or honeycomb without disturbing the bees",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/animal_platform",
+	"criteria": {
+		"requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "tag": "minecraft:beehives",
+                                "state": {
+                                    "smokey": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+	}
+}

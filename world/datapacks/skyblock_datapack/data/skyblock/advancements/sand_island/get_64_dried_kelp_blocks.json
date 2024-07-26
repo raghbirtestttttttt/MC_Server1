@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dried_kelp_block"
+		},
+		"title": {
+			"translate": "Infinite fuel",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 dried kelp blocks",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:sand_island/fishing_rod_hooked",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dried_kelp_block"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

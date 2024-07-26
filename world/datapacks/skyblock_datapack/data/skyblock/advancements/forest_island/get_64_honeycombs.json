@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:honeycomb"
+		},
+		"title": {
+			"translate": "Blooming honeycomb",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 honeycombs",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/harvest_from_a_safe_hive",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:honeycomb"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

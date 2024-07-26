@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:pointed_dripstone"
+    },
+	{
+	  "item": "minecraft:brick"
+	},
+	{
+	  "item": "minecraft:brick"
+	} 
+  ],
+  "result": {
+    "item": "minecraft:suspicious_sand"
+  }
+}

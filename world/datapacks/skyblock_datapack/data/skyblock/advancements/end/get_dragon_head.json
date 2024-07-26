@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_head"
+		},
+		"title": {
+			"translate": "There were more dragons?",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get a dragon head",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/enter_end_city",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dragon_head"
+						]
+					}
+				]
+			}
+		}
+	}
+}

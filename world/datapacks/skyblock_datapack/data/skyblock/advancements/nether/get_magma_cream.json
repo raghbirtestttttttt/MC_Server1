@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:magma_cream"
+		},
+		"title": {
+			"translate": "Hot cream",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get magma cream",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/reach_all_nether_biomes",
+	"criteria": {
+		"magma_cream": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magma_cream"
+						]
+					}
+				]
+			}
+		}
+	}
+}

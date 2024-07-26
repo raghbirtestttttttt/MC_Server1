@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crimson_nylium"
+		},
+		"title": {
+			"translate": "Nether nature",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get both types of nylium",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/enchant_with_silk_touch",
+	"criteria": {
+		"nylium_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:warped_nylium"
+						]
+					}
+				]
+			}
+		},
+		"nylium_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crimson_nylium"
+						]
+					}
+				]
+			}
+		}
+	}
+}

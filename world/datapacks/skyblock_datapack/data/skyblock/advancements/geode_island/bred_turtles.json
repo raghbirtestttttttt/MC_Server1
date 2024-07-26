@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:turtle_egg"
+		},
+		"title": {
+			"translate": "The miracle of life",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "See the turtles born, grow and reproduce",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_64_sands",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:turtle"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_shrieker",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Lucky I survived",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Kill a warden",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:geode_island/step_on_sculk_shrieker",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:warden"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

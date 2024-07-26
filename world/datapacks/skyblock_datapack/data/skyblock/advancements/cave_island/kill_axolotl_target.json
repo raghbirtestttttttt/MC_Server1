@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tropical_fish_bucket"
+		},
+		"title": {
+			"translate": "A beautiful friendship",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Kill a mob that is attacking an axolotl",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:cave_island/filled_axolotl_bucket",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"source": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:axolotl"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

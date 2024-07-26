@@ -1,0 +1,139 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wheat_seeds"
+        },
+        "title": {
+            "translate": "Grow so fast",
+            "color": "aqua"
+        },
+        "description": {
+            "translate": "Plant a seed",
+            "color": "white"
+        }
+    },
+    "parent": "skyblock:sand_island/get_a_hoe",
+    "criteria": {
+        "beetroots": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:beetroots",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "melon_stem": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:melon_stem",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "carrot": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:carrots",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "pumpkin_stem": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:pumpkin_stem",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "potato": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:potatoes",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "wheat": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:wheat",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "nether_wart": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:nether_wart",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "pitcher_pod": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:pitcher_crop",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "torchflower": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:torchflower_crop",
+                        "properties": {}
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "wheat",
+            "pumpkin_stem",
+            "melon_stem",
+            "beetroots",
+            "carrot",
+            "potato",
+            "nether_wart",
+            "pitcher_pod",
+            "torchflower"
+        ]
+    ]
+}

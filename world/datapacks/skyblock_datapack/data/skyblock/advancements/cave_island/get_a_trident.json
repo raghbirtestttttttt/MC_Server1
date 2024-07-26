@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:trident"
+		},
+		"title": {
+			"translate": "Poseidon",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get a trident",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/killed_drowned",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:trident"
+						]
+					}
+				]
+			}
+		}
+	}
+}

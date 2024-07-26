@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wooden_pickaxe"
+		},
+		"title": {
+			"translate": "The first pickaxe",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Craft a wooden pickaxe",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/get_sapling",
+	"criteria": {
+		"wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wooden_pickaxe"
+						]
+					}
+				]
+			}
+		}
+	}
+}

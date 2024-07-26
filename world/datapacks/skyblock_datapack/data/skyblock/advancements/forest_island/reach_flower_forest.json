@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dandelion"
+		},
+		"title": {
+			"translate": "Blooming",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Reach the floral forest biome",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/reach_other_biome",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:flower_forest"
+					}
+				}
+			}
+		}
+	}
+}

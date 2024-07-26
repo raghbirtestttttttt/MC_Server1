@@ -1,0 +1,57 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glow_lichen"
+		},
+		"title": {
+			"translate": "Tarzan",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 13 vines of each type including glow lichens at the same time in the inventory",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/get_64_azaleas",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:glow_lichen"
+						],
+						"count": {
+							"min": 13
+						}
+					},
+					{
+						"items": [
+							"minecraft:vine"
+						],
+						"count": {
+							"min": 13
+						}
+					},
+					{
+						"items": [
+							"minecraft:twisting_vines"
+						],
+						"count": {
+							"min": 13
+						}
+					},
+					{
+						"items": [
+							"minecraft:weeping_vines"
+						],
+						"count": {
+							"min": 13
+						}
+					}
+				]
+			}
+		}
+	}
+}

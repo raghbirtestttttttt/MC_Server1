@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:prismarine_shard"
+		},
+		"title": {
+			"translate": "There are guardians at last",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Build a guardian farm and collect their drops",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/come_to_monument",
+	"criteria": {
+		"prismarine_shard": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:prismarine_shard"
+						],
+						"count": {
+							"min": 8
+						}
+					}
+				]
+			}
+		},
+		"prismarine_crystals": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:prismarine_crystals"
+						],
+						"count": {
+							"min": 8
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"prismarine_crystals",
+			"prismarine_shard"
+		]
+	]
+}

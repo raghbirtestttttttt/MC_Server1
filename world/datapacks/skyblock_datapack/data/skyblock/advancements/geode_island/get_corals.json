@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fire_coral"
+		},
+		"title": {
+			"translate": "What a beautiful sea",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Use bone meal in warm ocean biome water to get corals",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/bred_turtles",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:fire_coral",
+							"minecraft:fire_coral_fan",
+							"minecraft:tube_coral",
+							"minecraft:tube_coral_fan",
+							"minecraft:brain_coral",
+							"minecraft:brain_coral_fan",
+							"minecraft:horn_coral",
+							"minecraft:horn_coral_fan",
+							"minecraft:bubble_coral",
+							"minecraft:bubble_coral_fan"
+						]
+					}
+				]
+			}
+		}
+	}
+}

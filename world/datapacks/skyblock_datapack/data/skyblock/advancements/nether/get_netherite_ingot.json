@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"title": {
+			"translate": "The best ingot",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Craft a netherite ingot",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/get_ancient_debris",
+	"criteria": {
+		"get_netherite_ingot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_ingot"
+						]
+					}
+				]
+			}
+		}
+	}
+}

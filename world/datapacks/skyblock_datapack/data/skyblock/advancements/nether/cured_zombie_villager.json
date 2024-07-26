@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:splash_potion"
+		},
+		"title": {
+			"translate": "To resurrect",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Cure a zombie villager",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/get_brewing_stand",
+	"criteria": {
+		"cured_zombie_villager": {
+			"trigger": "minecraft:cured_zombie_villager"
+		}
+	}
+}

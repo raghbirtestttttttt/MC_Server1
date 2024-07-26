@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chiseled_nether_bricks"
+		},
+		"title": {
+			"translate": "A not so terrible fortress",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Reach the fortress and build a platform, search between 15 75 98 and 33 82 116",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/root",
+	"criteria": {
+		"fortress": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:fortress"
+					}
+				}
+			}
+		}
+	}
+}

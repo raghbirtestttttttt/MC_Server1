@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_ingot"
+		},
+		"title": {
+			"translate": "Sorry golems",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Build a iron farm",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/cured_zombie_villager",
+	"criteria": {
+		"cured_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_ingot"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

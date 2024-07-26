@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_chicken"
+		},
+		"title": {
+			"translate": "Cooking",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Cook your first food",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/furnaces",
+	"criteria": {
+		"food": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:baked_potato",
+							"minecraft:cooked_rabbit",
+							"minecraft:cooked_mutton",
+							"minecraft:dried_kelp",
+							"minecraft:cooked_beef",
+							"minecraft:cooked_chicken",
+							"minecraft:cooked_salmon",
+							"minecraft:cooked_cod",
+							"minecraft:cooked_porkchop"
+						]
+					}
+				]
+			}
+		}
+	}
+}

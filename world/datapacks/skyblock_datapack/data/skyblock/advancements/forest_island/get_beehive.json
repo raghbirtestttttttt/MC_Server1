@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:beehive"
+		},
+		"title": {
+			"translate": "Building a colony",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Craft some beehives",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/get_64_honeycombs",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:beehive"
+						]
+					}
+				]
+			}
+		}
+	}
+}

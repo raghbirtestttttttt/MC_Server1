@@ -1,0 +1,78 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tube_coral_block"
+		},
+		"title": {
+			"translate": "Corals of the blue sea",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Craft all coral blocks",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_corals",
+	"criteria": {
+		"brain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brain_coral_block"
+						]
+					}
+				]
+			}
+		},
+		"bubble": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bubble_coral_block"
+						]
+					}
+				]
+			}
+		},
+		"fire": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:fire_coral_block"
+						]
+					}
+				]
+			}
+		},
+		"horn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:horn_coral_block"
+						]
+					}
+				]
+			}
+		},
+		"tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tube_coral_block"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:jack_o_lantern"
+		},
+		"title": {
+			"translate": "And if we make a snowman",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Summon a snow golem",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/reach_snowy_biome",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:snow_golem"
+				}
+			}
+		}
+	}
+}

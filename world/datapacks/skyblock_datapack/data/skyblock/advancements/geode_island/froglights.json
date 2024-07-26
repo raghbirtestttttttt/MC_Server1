@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ochre_froglight"
+		},
+		"title": {
+			"translate": "Powers of light",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get all frogligths variants in your inventory",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:geode_island/get_all_variants_frogs",
+	"criteria": {
+		"froglights": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ochre_froglight"
+						]
+					},
+					{
+						"items": [
+							"minecraft:pearlescent_froglight"
+						]
+					},
+					{
+						"items": [
+							"minecraft:verdant_froglight"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

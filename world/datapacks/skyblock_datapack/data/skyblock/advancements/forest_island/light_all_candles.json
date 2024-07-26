@@ -1,0 +1,413 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:candle"
+		},
+		"title": {
+			"translate": "Romantic lighting",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Light one candle of each color",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:forest_island/get_64_honeycombs",
+	"criteria": {
+		"normal": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"white": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:white_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"red": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:red_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"orange": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:orange_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"pink": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:pink_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"yellow": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:yellow_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"lime": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:lime_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"green": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:green_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"light_blue": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:light_blue_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"cyan": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:cyan_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"blue": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:blue_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"magenta": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:magenta_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"purple": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:purple_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"brown": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:brown_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"gray": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:gray_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"light_gray": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:light_gray_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+		"black": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:creeper_igniters"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:black_candle"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

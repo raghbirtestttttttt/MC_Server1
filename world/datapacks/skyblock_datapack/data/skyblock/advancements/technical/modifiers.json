@@ -1,0 +1,10 @@
+{
+	"rewards": {
+		"function": "skyblock:tick"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shulker_box"
+		},
+		"title": {
+			"translate": "A portable chest",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "More inventory space",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/killed_shulker",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shulker_box"
+						]
+					}
+				]
+			}
+		}
+	}
+}

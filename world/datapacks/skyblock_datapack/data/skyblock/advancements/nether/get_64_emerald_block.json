@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald_block",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Master trader",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 emerald blocks",
+			"color": "white"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:nether/get_emerald",
+	"criteria": {
+		"get_emerald_blocks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:emerald_block"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

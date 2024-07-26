@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": {
+			"translate": "What bad breath",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Collect dragon breath in a bottle",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/killed_dragon",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dragon_breath"
+						]
+					}
+				]
+			}
+		}
+	}
+}

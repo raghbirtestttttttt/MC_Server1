@@ -1,0 +1,55 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cracked_stone_bricks"
+		},
+		"title": {
+			"translate": "A new structure",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Reach a structure in the overworld and build a platform on each",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/placed_kelp",
+	"criteria": {
+		"swamp_hut": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:swamp_hut"
+					}
+				}
+			}
+		},
+		"pillager_outpost": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:pillager_outpost"
+					}
+				}
+			}
+		},
+		"monument": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:monument"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"swamp_hut",
+			"pillager_outpost",
+			"monument"
+		]
+	]
+}

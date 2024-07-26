@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glow_ink_sac"
+		},
+		"title": {
+			"translate": "Radioactive octopus",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Kill a glow squid",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/get_tuff_and_deepslate",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:glow_squid"
+				}
+			}
+		}
+	}
+}

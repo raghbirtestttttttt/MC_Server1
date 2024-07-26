@@ -1,0 +1,100 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone_hoe"
+		},
+		"title": {
+			"translate": "Agriculture ready",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Craft a hoe from any material",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/placed_kelp",
+	"criteria": {
+		"wooden_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wooden_hoe"
+						]
+					}
+				]
+			}
+		},
+		"stone_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stone_hoe"
+						]
+					}
+				]
+			}
+		},
+		"iron_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_hoe"
+						]
+					}
+				]
+			}
+		},
+		"golden_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:golden_hoe"
+						]
+					}
+				]
+			}
+		},
+		"diamond_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:diamond_hoe"
+						]
+					}
+				]
+			}
+		},
+		"netherite_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_hoe"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"wooden_hoe",
+			"stone_hoe",
+			"iron_hoe",
+			"golden_hoe",
+			"diamond_hoe",
+			"netherite_hoe"
+		]
+	]
+}

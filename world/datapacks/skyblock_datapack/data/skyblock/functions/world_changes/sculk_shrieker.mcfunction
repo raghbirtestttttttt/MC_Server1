@@ -1,0 +1,1 @@
+execute as @a at @s run fill ~ ~ ~ ~ ~ ~ minecraft:sculk_shrieker[can_summon=true] replace minecraft:sculk_shrieker[can_summon=false]

@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:conduit"
+		},
+		"title": {
+			"translate": "A useless effect, really",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Activate a conduit and get its effect",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/get_mining_fatigue",
+	"criteria": {
+		"get_conduit_power": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"effects": {
+						"minecraft:conduit_power": {}
+					}
+				}
+			}
+		}
+	}
+}

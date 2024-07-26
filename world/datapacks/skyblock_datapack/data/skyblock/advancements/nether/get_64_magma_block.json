@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:magma_block"
+		},
+		"title": {
+			"translate": "Heat lover",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 magma blocks",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:nether/get_magma_cream",
+	"criteria": {
+		"magma_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magma_block"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

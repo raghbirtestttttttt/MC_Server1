@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone_pickaxe"
+		},
+		"title": {
+			"translate": "A better pickaxe",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Craft a stone pickaxe",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/cobblestone_generator",
+	"criteria": {
+		"pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stone_pickaxe"
+						]
+					}
+				]
+			}
+		}
+	}
+}

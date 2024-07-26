@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:water_bucket"
+		},
+		"title": {
+			"translate": "Infinity water?",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Can you create infinite water with a kelp?",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/root",
+	"criteria": {
+		"requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:kelp",
+                        "properties": {}
+                    }
+                ]
+            }
+        }
+	}
+}

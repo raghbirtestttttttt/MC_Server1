@@ -1,0 +1,99 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chest_minecart",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "All Islands",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Reach all the islands of the overworld",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/come_to_island",
+	"criteria": {
+		"forest_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 63,
+								"max": 66
+							},
+							"z": {
+								"min": -1,
+								"max": 2
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		},
+		"sand_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -65,
+								"max": -62
+							},
+							"z": {
+								"min": -1,
+								"max": 2
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		},
+		"geode_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -1,
+								"max": 2
+							},
+							"z": {
+								"min": -65,
+								"max": -62
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		},
+		"cave_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -1,
+								"max": 2
+							},
+							"z": {
+								"min": 63,
+								"max": 66
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		}
+	}
+}

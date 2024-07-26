@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanted_golden_apple"
+		},
+		"title": {
+			"translate": "SkyBlock 1.20",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "A new adventure",
+			"color": "white"
+		},
+		"background": "minecraft:textures/block/light_blue_concrete_powder.png"
+	},
+	"criteria": {
+		"get_item": {
+			"trigger": "minecraft:inventory_changed"
+		}
+	}
+}

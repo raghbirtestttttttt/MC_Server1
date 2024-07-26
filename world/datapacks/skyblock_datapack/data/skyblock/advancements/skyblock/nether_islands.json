@@ -1,0 +1,58 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone"
+		},
+		"title": {
+			"translate": "Nether islands",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Reaches the nether islands",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:skyblock/nether",
+	"criteria": {
+		"island_1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": 62,
+								"max": 65
+							},
+							"z": {
+								"min": -1,
+								"max": 2
+							}
+						},
+						"dimension": "minecraft:the_nether"
+					}
+				}
+			}
+		},
+		"island_2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -65,
+								"max": -62
+							},
+							"z": {
+								"min": -1,
+								"max": 2
+							}
+						},
+						"dimension": "minecraft:the_nether"
+					}
+				}
+			}
+		}
+	}
+}

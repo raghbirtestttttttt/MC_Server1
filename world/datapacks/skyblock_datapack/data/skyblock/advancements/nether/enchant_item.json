@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanting_table"
+		},
+		"title": {
+			"translate": "Let the magic begin",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Enchant something on an enchanting table",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/trading_with_piglins",
+	"criteria": {
+		"enchant": {
+			"trigger": "minecraft:enchanted_item"
+		}
+	}
+}

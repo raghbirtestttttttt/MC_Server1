@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oxidized_copper"
+		},
+		"title": {
+			"translate": "Copper time",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get an fully oxidized block of copper but unwaxed",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:cave_island/get_copper_ingot",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper",
+							"minecraft:oxidized_cut_copper",
+							"minecraft:oxidized_cut_copper_slab",
+							"minecraft:oxidized_cut_copper_stairs"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

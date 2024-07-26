@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "A hero without a cape",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Successfully defend a village from a raid",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:sand_island/get_bad_omen",
+	"criteria": {
+		"hero_of_the_village": {
+			"trigger": "minecraft:hero_of_the_village"
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

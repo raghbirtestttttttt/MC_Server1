@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": {
+			"translate": "Hmmmm, emeralds",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get a emerald",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/cured_zombie_villager",
+	"criteria": {
+		"get_emerald": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:emerald"
+						]
+					}
+				]
+			}
+		}
+	}
+}

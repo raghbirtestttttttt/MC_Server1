@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:honey_bottle",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Grandma's remedy",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Drink a bottle of honey to wash off the poison",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:forest_island/get_16_honey_bottles",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": {
+					"effects": {
+						"minecraft:poison": {}
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:honey_bottle"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

@@ -1,0 +1,106 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:jungle_sapling"
+		},
+		"title": {
+			"translate": "Sowing life",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Plant one sapling of each type",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/reach_other_biome",
+	"criteria": {
+		"birch_sapling": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:birch_sapling"
+                    }
+                ]
+            }
+		},
+		"oak_sapling": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:oak_sapling"
+                    }
+                ]
+            }
+		},
+		"jungle_sapling": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:jungle_sapling"
+                    }
+                ]
+            }
+		},
+		"acacia_sapling": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:acacia_sapling"
+                    }
+                ]
+            }
+		},
+		"dark_oak_sapling": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:dark_oak_sapling"
+                    }
+                ]
+            }
+		},
+		"spruce_sapling": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:spruce_sapling"
+                    }
+                ]
+            }
+		},
+		"mangrove_propagule": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:mangrove_propagule"
+                    }
+                ]
+            }
+		},
+		"cherry_sapling": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:cherry_sapling"
+                    }
+                ]
+            }
+		}
+	}
+}

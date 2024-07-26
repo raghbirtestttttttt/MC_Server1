@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:potion",
+			"nbt": "{Potion:\"minecraft:turtle_master\"}"
+		},
+		"title": {
+			"translate": "Turtle master",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Drink a potion of the turtle master",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:geode_island/get_scute",
+	"criteria": {
+		"turtle_master": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:turtle_master"
+				}
+			}
+		},
+		"turtle_master_+": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:long_turtle_master"
+				}
+			}
+		},
+		"turtle_master_II": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:strong_turtle_master"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"turtle_master",
+			"turtle_master_+",
+			"turtle_master_II"
+		]
+	],
+	"rewards": {
+		"experience": 100
+	}
+}

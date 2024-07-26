@@ -1,0 +1,63 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:trident",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Metamorphosis",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Strike all mobs with a lightning bolt that changes with them",
+			"color": "white"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:cave_island/get_a_trident",
+	"criteria": {
+		"villager": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager"
+					}
+				]
+			}
+		},
+		"pig": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:pig"
+					}
+				]
+			}
+		},
+		"mooshroom": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:mooshroom"
+					}
+				]
+			}
+		},
+		"creeper": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:creeper"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

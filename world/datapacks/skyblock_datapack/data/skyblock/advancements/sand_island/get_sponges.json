@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sponge"
+		},
+		"title": {
+			"translate": "Sponge Bob",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get some sponges",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/get_mining_fatigue",
+	"criteria": {
+		"get_sponges": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sponge"
+						]
+					}
+				]
+			}
+		}
+	}
+}

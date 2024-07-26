@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:prismarine_crystals"
+		},
+		"title": {
+			"translate": "I respect my elders",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Guardians on death can turn into an elder guardian, get mining fatigue effect",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/get_prismarine_items",
+	"criteria": {
+		"get_mining_fatigue": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"effects": {
+						"minecraft:mining_fatigue": {}
+					}
+				}
+			}
+		}
+	}
+}

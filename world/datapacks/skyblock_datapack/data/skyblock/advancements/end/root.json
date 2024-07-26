@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_stone"
+		},
+		"title": {
+			"translate": "The end",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "The ultimate dimension to explore",
+			"color": "white"
+		},
+		"background": "minecraft:textures/block/end_stone.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "minecraft:the_end"
+			}
+		}
+	}
+}

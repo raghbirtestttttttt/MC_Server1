@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lead"
+		},
+		"title": {
+			"translate": "Cow cowgirl",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Tie a cow with a lead",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/cut_sheep_wool",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": {
+					"type": "minecraft:cow"
+				}
+			}
+		}
+	}
+}

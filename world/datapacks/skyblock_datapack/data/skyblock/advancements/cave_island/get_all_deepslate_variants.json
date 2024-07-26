@@ -1,0 +1,210 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chiseled_deepslate"
+		},
+		"title": {
+			"translate": "Deepslate worker",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get all variants of cobbled deepslate in a stonecutter",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/get_tuff_and_deepslate",
+	"criteria": {
+		"chiseled": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chiseled_deepslate"
+						]
+					}
+				]
+			}
+		},
+		"slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cobbled_deepslate_slab"
+						]
+					}
+				]
+			}
+		},
+		"stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cobbled_deepslate_stairs"
+						]
+					}
+				]
+			}
+		},
+		"wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cobbled_deepslate_wall"
+						]
+					}
+				]
+			}
+		},
+		"brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_brick_slab"
+						]
+					}
+				]
+			}
+		},
+		"brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_brick_stairs"
+						]
+					}
+				]
+			}
+		},
+		"brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_brick_wall"
+						]
+					}
+				]
+			}
+		},
+		"bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_bricks"
+						]
+					}
+				]
+			}
+		},
+		"tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_tile_slab"
+						]
+					}
+				]
+			}
+		},
+		"tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_tile_stairs"
+						]
+					}
+				]
+			}
+		},
+		"tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_tile_wall"
+						]
+					}
+				]
+			}
+		},
+		"tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_tiles"
+						]
+					}
+				]
+			}
+		},
+		"polished_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_deepslate_slab"
+						]
+					}
+				]
+			}
+		},
+		"polished_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_deepslate_stairs"
+						]
+					}
+				]
+			}
+		},
+		"polished_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_deepslate_wall"
+						]
+					}
+				]
+			}
+		},
+		"polished": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_deepslate"
+						]
+					}
+				]
+			}
+		}
+	}
+}

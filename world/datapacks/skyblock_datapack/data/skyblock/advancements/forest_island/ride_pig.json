@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot_on_a_stick"
+		},
+		"title": {
+			"translate": "Pig rider",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Ride a pig and lead it with a carrot on a stick",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:forest_island/feed_chickens",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "minecraft:pig"
+							}
+						}
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:carrot_on_a_stick"
+					]
+				}
+			}
+		}
+	}
+}

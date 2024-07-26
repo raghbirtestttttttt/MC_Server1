@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spyglass"
+		},
+		"title": {
+			"translate": "Land in sight",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Use a spyglass",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_64_amethyst_shards",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wither_skeleton_skull"
+		},
+		"title": {
+			"translate": "Scary skulls",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get a wither skeleton skull",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/kill_wither_skeleton",
+	"criteria": {
+		"get_wither_skeleton_skull": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wither_skeleton_skull"
+						]
+					}
+				]
+			}
+		}
+	}
+}

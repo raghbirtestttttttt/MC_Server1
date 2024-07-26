@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crossbow"
+		},
+		"title": {
+			"translate": "Pillager time",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Reach the pillager outpost between -94 67 179 and -111 97 192",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:sand_island/come_to_a_structure",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:pillager_outpost"
+					}
+				}
+			}
+		}
+	}
+}

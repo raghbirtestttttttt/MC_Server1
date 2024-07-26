@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gold_ingot"
+		},
+		"title": {
+			"translate": "Gold farm",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "The zombified piglin drop gold nuggets",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:nether/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gold_nugget"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

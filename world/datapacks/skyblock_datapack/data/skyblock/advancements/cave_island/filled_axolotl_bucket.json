@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:axolotl_bucket"
+		},
+		"title": {
+			"translate": "A new friend",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Build a clay pool in the lush caves biome and get an axolotl",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:cave_island/get_clay_ball",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:axolotl_bucket"
+						]
+					}
+				]
+			}
+		}
+	}
+}

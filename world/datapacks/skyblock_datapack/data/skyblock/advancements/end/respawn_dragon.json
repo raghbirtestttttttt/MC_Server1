@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_crystal"
+		},
+		"title": {
+			"translate": "She's back",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Respawn the ender dragon",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/get_dragon_egg",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		}
+	}
+}

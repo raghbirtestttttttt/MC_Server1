@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shield"
+		},
+		"title": {
+			"translate": "Explosion proof",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Survive a charged creeper explosion using a shield",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:cave_island/get_a_trident",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"source_entity": {
+						"type": "minecraft:creeper",
+						"nbt": "{powered:1b}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

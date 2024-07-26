@@ -1,0 +1,48 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_mushroom_block"
+		},
+		"title": {
+			"translate": "Mushrooms everywhere",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get more red and brown mushrooms",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/place_mycelium",
+	"criteria": {
+		"red": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_mushroom"
+						],
+						"count": {
+							"min": 2
+						}
+					}
+				]
+			}
+		},
+		"brown": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_mushroom"
+						],
+						"count": {
+							"min": 2
+						}
+					}
+				]
+			}
+		}
+	}
+}

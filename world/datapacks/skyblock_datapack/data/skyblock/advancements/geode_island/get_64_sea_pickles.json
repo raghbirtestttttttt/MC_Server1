@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sea_pickle"
+		},
+		"title": {
+			"translate": "Pickles for the salad",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 64 sea pickles",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:geode_island/get_corals",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sea_pickle"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

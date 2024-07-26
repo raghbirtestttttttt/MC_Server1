@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:experience_bottle"
+		},
+		"title": {
+			"translate": "XP farm",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get 100 experience levels",
+			"color": "white"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:end/used_ender_chest",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"level": 100
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "skyblock:advancements/get_experience"
+	}
+}

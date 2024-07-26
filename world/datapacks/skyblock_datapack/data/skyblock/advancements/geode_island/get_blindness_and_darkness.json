@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:suspicious_stew"
+		},
+		"title": {
+			"translate": "Really blind",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get the effects of blindness and darkness",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:geode_island/killed_warden",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"effects": {
+						"minecraft:darkness": {},
+						"minecraft:blindness": {}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

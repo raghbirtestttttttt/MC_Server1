@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:feather"
+		},
+		"title": {
+			"translate": "Higher up",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Levitate 50 meters by shulker attacks",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/killed_shulker",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:levitation",
+			"conditions": {
+				"distance": {
+					"y": {
+						"min": 50
+					}
+				}
+			}
+		}
+	}
+}

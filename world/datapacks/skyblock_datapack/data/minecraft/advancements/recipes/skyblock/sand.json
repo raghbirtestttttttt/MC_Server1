@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stones": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "item": [
+          {
+            "tag": [
+              "skyblock:stones"
+            ]
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sand"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+	}
+  },
+  "requirements": [
+    [
+      "has_stones",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sand"
+    ]
+  }
+}

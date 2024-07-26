@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Dragon vs Dragon",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Kill the ender dragon while wearing a dragon head",
+			"color": "white"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:end/get_dragon_head",
+	"criteria": {
+		"dragon_vs_dragon": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:dragon_head"
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

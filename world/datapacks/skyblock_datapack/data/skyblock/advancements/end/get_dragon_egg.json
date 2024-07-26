@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_egg"
+		},
+		"title": {
+			"translate": "The new generation",
+			"color": "aqua"
+		},
+		"description": {
+			"translate": "Get the dragon egg",
+			"color": "white"
+		}
+	},
+	"parent": "skyblock:end/killed_dragon",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dragon_egg"
+						]
+					}
+				]
+			}
+		}
+	}
+}
